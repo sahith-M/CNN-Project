@@ -10,34 +10,21 @@ This project implements a CNN model for classifying images from the MNIST/CIFAR-
 - Training neural networks using backpropagation and gradient descent
 - Evaluating model performance on image classification tasks
 
-## Repository Structure
-
-cnn_project/
-├── data/  
-├── notebooks/ # Jupyter notebooks for experiments and visualization
-├── src/ # Source code
-│ ├── data/ # Data loading and preprocessing modules
-│ ├── models/ # CNN model architecture definitions
-│ ├── utils/ # Utility functions
-│ └── visualization/ # Visualization tools
-├── checkpoints/ # Saved model checkpoints
-└── results/ # Experimental results and visualizations
-
 ## Setup Instructions
 
 ### Environment Setup
 
 1. Clone this repository:
-   `git clone https://github.com/sahith-M/cnn-project.git
-cd cnn-project`
+   `git clone https://github.com/sahith-M/cnn-project.git`
+    `cd cnn-project`
 
 2. Create and activate a conda environment:
-   `conda create -n cnn_env python=3.9
-conda activate cnn_env`
+   `conda create -n cnn_env python=3.9`
+   `conda activate cnn_env`
 
 3. Install required packages:
-   `conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
-conda install jupyter matplotlib scikit-learn pandas`
+   `conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia`
+   `conda install jupyter matplotlib scikit-learn pandas`
 
 4. Run the project
 
